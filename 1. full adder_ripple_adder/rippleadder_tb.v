@@ -23,5 +23,6 @@ begin
     X = 4'd1111;
     Y = 4'd1101;
     Ci = 4'b1;
+    #10 $finish;
 end
 endmodule
