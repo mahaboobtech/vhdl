@@ -1,5 +1,5 @@
 `timescale 10ns/10ns
-`include "mux_data.v"
+`include "mux_data.v" // add modelling file here
 module top;
 wire out;
 reg a;
